@@ -5,6 +5,11 @@
    /* Step : setup named grid areas */
    grid-template-columns: auto;
    grid-template-rows: auto;
+   grid-template-areas: 
+   "hd hd hd"
+   "feat feat feat"
+   "main main main"
+   "ft ft ft";
   
       border: 2px solid yellow;
 
