@@ -21,14 +21,18 @@
 
   .header{
       /* Set elements grid-area here */
+      grid-area: hd;
   }
 
   .footer{
     /* Set elements grid-area here */
+    grid-area: ft;
   }
   .feature{
     /* Set elements grid-area here */
+    grid-area: feat;
   }
   .content{
     /* Set elements grid-area here */
+    grid-area: main;
   }
