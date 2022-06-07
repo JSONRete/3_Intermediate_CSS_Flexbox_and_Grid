@@ -4,7 +4,7 @@
    /* Step 2: setup rows amd columns */
    /* Step : setup named grid areas */
    grid-template-columns: 300px 300px 300px  ;
-   grid-template-rows: auto;
+   grid-template-rows: 600px;
    grid-template-areas: 
    "hd hd hd"
    "feat feat feat"
