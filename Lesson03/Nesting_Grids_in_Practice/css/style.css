@@ -1,23 +1,23 @@
-/* Mobile first */
 .container{
   display:grid;
   grid-template-columns: 300px 300px 300px;
   grid-template-rows: 250px 600px;
-  border: 2px solid yellow;
-    /* Use grid-template-area to create a mobile layout where each named space occupies its own row */
-
+  /* grid-template-columns: repeat(3, 1fr); */
+  /* Initially each element has its own row for small screens */
   grid-template-areas: 
   "hd"
   "sd"
   "main"
   "ft";
+  border: 2px solid yellow;
 }
+/* add css for nested grid here */
 .box{
     border: 1px solid red;
     background: #F8FA9D;
     }
-
   .header{
+    /* row start/column start/ row end/ column end */
     grid-area:hd;
   }
   .footer{
@@ -29,7 +29,6 @@
   .content{
     grid-area: main;
   }
-
 /* If Screen Is Wide Enough */
 @media(min-width:900px){
 .container{
