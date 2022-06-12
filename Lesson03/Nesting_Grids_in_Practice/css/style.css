@@ -16,8 +16,16 @@
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
-  border: 3px solid green;
+  /* border: 3px solid green; */
+
   
+  
+}
+
+#nestedGrid > *{
+  /* border: 2px solid aquamarine; */
+  border: 2px solid green;
+  white-space: 1px;
 }
 
 .box{
